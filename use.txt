@@ -1,0 +1,30 @@
+1.设置用户名
+git config --global user.name 'IkariShinji416'
+2.设置用户邮箱
+git config --global user.email '1792369969@qq.com'
+3.创建文件夹
+mkdir 文件夹名称
+4.在文件夹内初始化Git-创建Git仓库
+cd 文件夹名称 git init
+5.向仓库添加文件
+touch a1.php
+6.添加到暂存区
+git add a1.php
+7.将文件从暂存区提交到仓库
+git commit -m 'add a1.php'
+8.修改文件
+vi a1.php
+9.删除文件
+rm test.php
+10.从Git中删除文件
+git rm test.php
+11.提交操作
+git commit -m '提交描述'
+12.查看修改内容
+cat 修改文件
+13.克隆仓库
+git clone 仓库地址   
+※ 1 touch 文件名(创建文件）
+2 git add 文件名（添加到暂存区）
+3 git commit -m '描述'（添加到本地仓库)
+4 git push （添加到远程仓库）  
